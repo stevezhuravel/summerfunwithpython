@@ -1,1 +1,10 @@
 language: python
+
+python:
+  - '3.7'
+    
+install: 
+  - pip3 install requirements.txt
+    
+script:
+  -python3 unittest
