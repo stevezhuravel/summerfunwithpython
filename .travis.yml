@@ -1,10 +1,12 @@
 language: python
-
 python:
-  - '3.7'
-    
-install: 
-  - pip3 install -r requirements.txt
-    
+- '3.7'
+install:
+- pip3 install -r requirements.txt
 script:
-  - python -m unittest discover
+- python -m unittest discover
+deploy:
+  - provider: heroku
+  api_key:
+    secure: N9EdRGqjd1L7xxTinetsonI7zJsrEAioQPBj9GnLW2pxL+njmjv4lWOHQIYInz4wYn5SZDnT0grm6kWDA1yevqJp1mhtVKBw9CP6+3pQCV0/KESgLwEMA44EYO/gIE3WP8PGXENJneP3eL3dOD7tII0yjAe0YNtl5gmThgwPHfo+wJaBfVB1GpalqenaVlQs/yZC3HitqE1i3igZvFYYXerIuA4q2D9COC/r6VtkSjpFfl5yQUR9j0Y9S6XKbxJRQ3wD4xKHXWn8f+UblHifM1jyTdqTUh0FUrkpmk0eH4CBes05VU048Gq3OTVLNvBEBAlqE2Z6ZGrkbe+Gcyh1fwva880mEGdoMsl5NDfq1w6Z3P5oa7AyXWBLUOo0Jouf3ivTibd/c2oOXPK1NZhuiFQEbtgoymum2AjoY20PiYPfXaju0U/MCZeS6T4u64BzhoSWYVec2mv7kR2Wk/elJT0jTsRYo0aouR0zSa9C68qtLLPnmfSQZUzumH2GtHqNoXTDgZc0itjbTvW31cBfeXdGQMi47X74TNhTpzlZmmYcD9lA+3EYZ5kKzoJQVaokEtk+xlPzhxHgpja4bf6X6kP3RRDyjqmldyVrSJybka8kblWVW5nDTSpH1jzT+WIkppya8nivB4+N1U1mPJGfhOFZRQBrZR13eRuPo/lbT2A=
+  app: cisc3140summerfunwithpython
