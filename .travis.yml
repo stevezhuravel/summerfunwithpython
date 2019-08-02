@@ -8,7 +8,7 @@ script:
 deploy:
   matrix:
   - provider: heroku
-    api_key: d3bd09a7-b427-46f7-88fc-665e9bce20cc
+    api_key:
       secure: qKkFIfmu0mTliXBs6i96hBiS6tw0XMjXdGE4U4fO98tcfFPl6yvHU6/NEHV3jZZCoMWTLZ5L2l87G8aEEhCP+S/t1mr1ezv2ABICJ4scBMIcV7dHITBQK/i6U/p/clum98EymAVNQgCFjN6H8vcYX9OtAI0vgnDo7i2WlGmCsJaZswpRjEHl8vzhZB5vM26BFy5OHIubOWHKVlJhIWdSvPr5aGjTV7zRrXGtdWI/ruT+mFYL9HHMalrGhbiKeEuz004XKghaDf3dpqaUWoG3c9xc+navl5s65fc94EHOt8t7wSvi/QNSNC7b6lJdPfChZO50I4jvtPjL0oDiwAWWKmiDY+s/QQAPOt7y+/3oTcNS9EqNziSPBxm1yEIbJrO/UkplzzzBVEiipXQbm99OXXvFy0xNM+X+MRgwg9GrHX+vXQRdPtgR6arkATz/2z1o2YUEoWDvPLqCBt2/JkNqDxzR32sEDTwk4IxkFlKo6h0eni8PfHnuSVUtEz7uk20X6z1u+CuAPE7Jy02/JUL3+6iEXZVJauSUH4oCb/wV4RH+xKT4xO44EeE5zDqY252GUD+gb4RJ6Kpafn3AYhmvPpX2Z3AuBTNa2hEeqSFtq6IFhJ1XJJbhPMXG56uzXtcEtZ/+yDDfwZPTwOAr4cEY04jh8fLd7ahyBH8NIyukxM8=
     app: cisc3140summerwithpython
   api_key:
