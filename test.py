@@ -1,4 +1,4 @@
-from cisc3140summerwithpython.server import app
+from server import app
 import unittest
 
 class test(unittest.TestCase):
