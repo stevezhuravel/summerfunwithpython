@@ -4,7 +4,7 @@ python:
 install:
 - pip3 install -r requirements.txt
 script:
-- python3 -m unittest discover
+- python unittest
 deploy:
   - provider: heroku
     api_key:
