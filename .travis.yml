@@ -1,10 +1,14 @@
 language: python
 python:
-- '3.7'
+  - "3.7"
 install:
-- pip3 install -r requirements.txt
+  - pip3 install -r requirements.txt
 script:
-- python -m unittest discover
+  - python -m unittest discover
+branches:
+  only:
+    - master
+
 deploy:
   - provider: heroku
     api_key: d3bd09a7-b427-46f7-88fc-665e9bce20cc
