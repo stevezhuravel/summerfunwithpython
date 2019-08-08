@@ -1,15 +1,15 @@
 language: python
 python:
-  - "3.7"
+- '3.7'
 install:
-  - pip3 install -r requirements.txt
+- pip3 install -r requirements.txt
 script:
-  - python -m unittest discover
+- python -m unittest discover
 branches:
   only:
-    - master
+  - master
 deploy:
-  - provider: heroku
-    api_key: 
-      secure: qKkFIfmu0mTliXBs6i96hBiS6tw0XMjXdGE4U4fO98tcfFPl6yvHU6/NEHV3jZZCoMWTLZ5L2l87G8aEEhCP+S/t1mr1ezv2ABICJ4scBMIcV7dHITBQK/i6U/p/clum98EymAVNQgCFjN6H8vcYX9OtAI0vgnDo7i2WlGmCsJaZswpRjEHl8vzhZB5vM26BFy5OHIubOWHKVlJhIWdSvPr5aGjTV7zRrXGtdWI/ruT+mFYL9HHMalrGhbiKeEuz004XKghaDf3dpqaUWoG3c9xc+navl5s65fc94EHOt8t7wSvi/QNSNC7b6lJdPfChZO50I4jvtPjL0oDiwAWWKmiDY+s/QQAPOt7y+/3oTcNS9EqNziSPBxm1yEIbJrO/UkplzzzBVEiipXQbm99OXXvFy0xNM+X+MRgwg9GrHX+vXQRdPtgR6arkATz/2z1o2YUEoWDvPLqCBt2/JkNqDxzR32sEDTwk4IxkFlKo6h0eni8PfHnuSVUtEz7uk20X6z1u+CuAPE7Jy02/JUL3+6iEXZVJauSUH4oCb/wV4RH+xKT4xO44EeE5zDqY252GUD+gb4RJ6Kpafn3AYhmvPpX2Z3AuBTNa2hEeqSFtq6IFhJ1XJJbhPMXG56uzXtcEtZ/+yDDfwZPTwOAr4cEY04jh8fLd7ahyBH8NIyukxM8=
-    app: cisc3140summerwithpython
+  provider: heroku
+  api_key:
+    secure: EaAAWXevwf7B7aG+Sizu7+0LSjpDeLjwKZpUX/PGnSQHHWdbSduQx6XmaJuxDu3s9jJdO8DpWUNV1JRbfq1Mz/GdvZKw8dDwu/D6k1yMC7crcOuDTPvcE/3PrC5MnfjNfBxFQMinUul4ep1AStzAn9NrbPcc6ZQ3XlMCbsfKpyznLQh0LfAhUjJcrQQTMytGce5yOHl156OawGkm9/njhNJ9nG7eLMzirRJ3sCIgKvmcFMbBYYAIfazTRCG33htYeVK+BKwF6J4QLx7TasnDY4WMYguMy2u78/q2OYkcJA2Qfr94794Iiub0XTWbiy7E7VY1Bc2xtRjh543sZakS+U288quFRyUOMfTzuqyAMeJ0DL9bI32B+xsZp/ZsQ9TCA6Wv1XaEBT8/+R3a9aji4Sr9/XqBy7OGZCvb2zeo/+XqcZEJHR6vyD5u51pDodxkzxxxTs1ndVJKM1r7Zr4KvvKQqkN9TQCwOXloJiILThlLWx4BnBduqnLRWdf0u+ngyj2JtJ3vSIuEp2O4QX5J8bCNaglI4ZwU+W7EkT85gTlyZawB57yoAr/j0XzVdjtv2+9Jl2rXQtnILlNjNDVdP4dUZEtsKdJwK7HHOI8X99OAe83iqWyl2zuWqRBQhaO+yLbT6gFygz8kABPYNOLzEH2FjBjHJwYWb+KL5sYh3mg=
+  app: cisc3140summerwithpython
